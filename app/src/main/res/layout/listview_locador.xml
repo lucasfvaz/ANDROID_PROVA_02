@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5sp">
+
+        <TextView
+            android:layout_width="0sp"
+            android:layout_height="wrap_content"
+            android:text="Nome"
+            android:id="@+id/txt_nomelocador"
+            android:textAlignment="center"
+            android:layout_weight="2"
+            android:textSize="9sp" />
+        <TextView
+            android:layout_width="0sp"
+            android:layout_height="wrap_content"
+            android:text="Cpf "
+            android:id="@+id/txt_cpflocador"
+            android:textAlignment="center"
+            android:layout_weight="2"
+            android:textSize="9sp" />
+        <TextView
+            android:layout_width="0sp"
+            android:layout_height="wrap_content"
+            android:text="Email"
+            android:id="@+id/txt_emaillocador"
+            android:textAlignment="center"
+            android:layout_weight="2"
+            android:textSize="9sp" />
+
+        <TextView
+            android:layout_width="0sp"
+            android:layout_height="wrap_content"
+            android:text="Telefone"
+            android:id="@+id/txt_telefonelocador"
+            android:textAlignment="center"
+            android:layout_weight="2"
+            android:textSize="9sp" />
+    </LinearLayout>
+</LinearLayout>

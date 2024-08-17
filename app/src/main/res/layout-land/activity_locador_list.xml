@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".activity_locador_list">
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:onClick="adicionarLocador"
+        android:padding="3sp"
+        android:text="Adicionar Locador" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:onClick="consultarLocador"
+        android:padding="3sp"
+        android:text="Consultar Locador" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:onClick="editarLocador"
+        android:padding="3sp"
+        android:text="Editar locador" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:onClick="removerLocador"
+        android:padding="3sp"
+        android:text="Remover locador" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5sp">
+
+        <TextView
+            android:layout_width="0sp"
+            android:layout_height="wrap_content"
+            android:text="Nome"
+            android:textAlignment="center"
+            android:layout_weight="2"
+            android:textSize="9sp" />
+        <TextView
+            android:layout_width="0sp"
+            android:layout_height="wrap_content"
+            android:text="Cpf "
+            android:textAlignment="center"
+            android:layout_weight="2"
+            android:textSize="9sp" />
+        <TextView
+            android:layout_width="0sp"
+            android:layout_height="wrap_content"
+            android:text="Email"
+            android:id="@+id/txt_emaillocador"
+            android:textAlignment="center"
+            android:layout_weight="2"
+            android:textSize="9sp" />
+
+        <TextView
+            android:layout_width="0sp"
+            android:layout_height="wrap_content"
+            android:text="Telefone"
+            android:textAlignment="center"
+            android:layout_weight="2"
+            android:textSize="9sp" />
+    </LinearLayout>
+    <ListView
+        android:id="@+id/lista_locadores"
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="10" />
+</LinearLayout>
